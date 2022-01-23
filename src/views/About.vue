@@ -3,4 +3,4 @@
     <h1>This is an about page</h1>
     <p>first commit</p>
   </div>
-</template>
+</template> 

@@ -1,4 +1,5 @@
 module.exports = {
-    publicPath: './',
-    outputDir: 'docs/', 
+    publicPath: process.env.NODE_ENV === 'production'
+      ? '/news_search_01/'   //任意
+      : '/'
   }
